@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Festejando a Conexão Campo e Cidade</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <h1>Festejando a Conexão Campo e Cidade</h1>
+    <nav>
+      <ul>
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#imagens">Galeria</a></li>
+        <li><a href="#acoes">Ações</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="sobre" class="container">
+    <h2>Conectando Saberes</h2>
+    <p>Este site celebra a interdependência entre o campo e a cidade, destacando como a tecnologia e a educação fortalecem essa conexão. Por meio de imagens, textos e interações, mostramos como essas realidades se complementam.</p>
+  </section>
+
+  <!-- TÍTULO ALINHADO COM CONTAINER -->
+  <div class="container">
+    <h2>Imagens da Conexão</h2>
+  </div>
+  <section id="imagens" class="galeria">
+    <div class="grid">
+      <!-- 12 imagens -->
+      <img src="images/img1.jpg" alt="Campo 1">
+      <img src="images/img2.jpg" alt="Cidade 1">
+      <img src="images/img3.jpg" alt="Conexão 1">
+      <img src="images/img4.jpg" alt="Campo 2">
+      <img src="images/img5.jpg" alt="Cidade 2">
+      <img src="images/img6.jpg" alt="Conexão 2">
+      <img src="images/img7.jpg" alt="Campo 3">
+      <img src="images/img8.jpg" alt="Cidade 3">
+      <img src="images/img9.jpg" alt="Conexão 3">
+      <img src="images/img10.jpg" alt="Campo 4">
+    </div>
+  </section>
+
+  <section id="acoes" class="container">
+    <h2>Exemplos de Ações</h2>
+    <div class="cards">
+      <div class="card" onclick="toggleCard(this)">
+        <h3>Feiras Agroecológicas</h3>
+        <p>Espaços onde produtores do campo vendem diretamente seus produtos para moradores da cidade.</p>
+      </div>
+      <div class="card" onclick="toggleCard(this)">
+        <h3>Educação Integrada</h3>
+        <p>Projetos escolares que conectam saberes rurais e urbanos, com visitas e trocas culturais.</p>
+      </div>
+      <div class="card" onclick="toggleCard(this)">
+        <h3>Conexão Digital</h3>
+        <p>Iniciativas que levam internet ao campo e capacitação digital à população rural.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contato" class="container">
+    <h2>Fale Conosco</h2>
+    <form>
+      <label for="nome">Nome:</label>
+      <input type="text" id="nome" name="nome" required>
+
+      <label for="mensagem">Mensagem:</label>
+      <textarea id="mensagem" name="mensagem" required></textarea>
+
+      <button type="submit">Enviar</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>Site criado para o Concurso Agrinho 2025 | Estudante: Nome do Estudante | Escola: Nome da Escola</p>
+  </footer>
+
+  <script>
+    function toggleCard(card) {
+      card.classList.toggle('ativo');
+    }
+  </script>
+</body>
+</html>
