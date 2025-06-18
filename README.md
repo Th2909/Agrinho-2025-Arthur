@@ -6,8 +6,8 @@ Este projeto foi desenvolvido como parte do **Concurso Agrinho 2025**, promovido
 
 - **Nome:** Arthur Monteiro  
 - **Ano/Série:** 2ª série do Ensino Médio  
-- **Instituição:** [Nome da sua escola]  
-- **Município:** [Cidade/PR]  
+- **Instituição:** [Colégio Estadual Ricardo Lunardelli]  
+- **Município:** [Porecatu/PR]  
 - **Categoria:** Programação  
 - **Subcategoria:** Programação Front-End – HTML e CSS  
 
@@ -46,6 +46,7 @@ Acesse o projeto publicado:
 ## Fontes
 
 - Banner - IA 
-prompt:
+prompt:Interdependência campo e cidade
 - Galeria - IA
-prompt: 
+prompt: Conexão campo e cidade
+
