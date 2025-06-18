@@ -6,8 +6,8 @@ Este projeto foi desenvolvido como parte do **Concurso Agrinho 2025**, promovido
 
 - **Nome:** Arthur Monteiro  
 - **Ano/Série:** 2ª série do Ensino Médio  
-- **Instituição:** [Colégio Estadual Ricardo Lunardelli]  
-- **Município:** [Porecatu/PR]  
+- **Instituição:** Colégio Estadual Ricardo Lunardelli  
+- **Município:** Porecatu/PR  
 - **Categoria:** Programação  
 - **Subcategoria:** Programação Front-End – HTML e CSS  
 
